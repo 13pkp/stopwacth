@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>
+<!-- style css add -->
+    <link rel="stylesheet" href="C:\Users\pratu\OneDrive\Desktop\javascript\style.css">
+    
+</head>
+<body>
+
+    <div id="container">
+    <!-- time ko span mai rakhenge coz span next line mai nhi aata sath mai chalta hai -->
+    <div id ="time">
+ <!-- this is for hour,min,sec,counter -->
+<span class="digit" id="hr">00</span>
+<span class="txt">hr</span>
+<span class="digit" id="min">00</span>
+<span class="txt">min</span>
+<span class="digit" id="sec">00</span>
+<span class="txt">sec</span>
+<span class="digit" id="count">00</span>
+</div>
+
+        <div id="btn-container">
+        <!-- buttons creat for start ,stop,reset /color change ke liye alag  id  -->
+        <!-- onclick event  fuction  -->
+        <button class="btn" id="start" onclick="start()">start</button>
+        <button class="btn" id="stop" onclick="stop()">stop</button>
+        <button class="btn" id="reset" onclick="reset()">reset</button>
+
+    </div>
+</div>   
+
+ <!-- script js add  -->
+    <script  defer src="C:\Users\pratu\OneDrive\Desktop\javascript\script.js"></script>
+</body>
+</html>

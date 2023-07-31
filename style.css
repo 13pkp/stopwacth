@@ -1,0 +1,47 @@
+body{
+    background-color: blue;
+
+    /* buttons ko center mai lane ke liye flex use (100 vh-vertical or horizontal ) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#container{
+    color:black;
+}
+
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* button ko center mai */
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+/* button ko bada karne ke liye padding use or colorful button ke liye */
+.btn{
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+/* button ko color kiya  */
+#start{
+    background-color: blueviolet;
+}
+#stop{
+    background-color: rgb(0, 255, 166);
+}
+#reset{
+    background-color: tomato;
+}
